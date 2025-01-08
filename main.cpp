@@ -14,10 +14,8 @@ int main()
     while (true) {
         if ( gasDetector == ON ) {
             alarmLed = ON;
-        }
-        
-        if ( gasDetector == OFF ) {
+        } else {
             alarmLed = OFF;
         }
-    }
+}
 }
